@@ -1,0 +1,11 @@
+{application,hangmangame,
+             [{applications,[kernel,stdlib,elixir]},
+              {description,"hangmangame"},
+              {modules,['Elixir.Aman','Elixir.Changeelement',
+                        'Elixir.DataParser','Elixir.Endit',
+                        'Elixir.Hangmangame','Elixir.Inputelement',
+                        'Elixir.MainS','Elixir.Print',
+                        'Elixir.Replacefunction','Elixir.Super']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_application,[logger]}]}.
